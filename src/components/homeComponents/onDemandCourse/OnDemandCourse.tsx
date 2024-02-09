@@ -11,10 +11,10 @@ const OnDemandCourse = () => {
             <div className="h-3 w-3 bg-green-700 rounded-full"></div>
             <div className="">ON DEMAND COURSE</div>
           </div>
-          <div className="text-2xl md:text-3xl lg:text-5xl font-semibold">
-          Foundations of Chartered Accountancy : Unlocking Your Financial Future
+          <div className="text-2xl md:text-3xl lg:text-4xl font-semibold">
+          Foundations of Chartered Accountancy Unlocking Your Financial Future
           </div>
-          <div className="text-xl md:text-2xl font-normal ">
+          <div className="text-lg md:text-xl font-normal ">
           Discover the gateway to a prosperous career in finance. Master the essentials of Chartered Accountancy and unlock limitless opportunities in the financial industry.
           </div>
           <div className="flex gap-5">

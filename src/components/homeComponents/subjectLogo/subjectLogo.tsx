@@ -4,7 +4,7 @@ const SubjectLogo=()=>{
     return(
         <div className="  ">
             
-            <Image src="/allLogos.png" alt="" width={2000} height={100}/>
+            <Image src="/alllogos.png" alt="" width={2000} height={100}/>
            
         </div>
     )
