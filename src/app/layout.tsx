@@ -1,5 +1,6 @@
 import { ThemeProvider } from "@/components/helpComponents/themeProvider/themeProvider";
 import { cn } from "@/lib/utils";
+import AuthProvider from "@/providers/AuthProvider";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
      <body className={cn("relative h-full font-sans antialiased  ", inter.className)}>
-
+     <AuthProvider>
      <ThemeProvider
             attribute="class"
             defaultTheme="system"
@@ -34,6 +35,7 @@ export default function RootLayout({
           
         </main>
         </ThemeProvider>
+        </AuthProvider>
         
         </body>
     </html>
